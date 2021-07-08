@@ -9,11 +9,11 @@
 
 //信息
 
-【BOXJS】: https://raw.githubusercontent.com/CenBoMin/GithubSync/main/cenbomin.box.json
+【BOXJS】: https://cdn.jsdelivr.net/gh/JamieChin2020/GithubSync@main/cenbomin.box.json
 【邀请码】: 347770
 【定时cron】: */20 0-23 * * *
-【脚本JS】:https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/chonghua.js
-【重写引用conf】:https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/GetBody.conf
+【脚本JS】:https://cdn.jsdelivr.net/gh/JamieChin2020/GithubSync@main/CONGHUA/chonghua.js
+【重写引用conf】:https://cdn.jsdelivr.net/gh/JamieChin2020/GithubSync@main/CONGHUA/GetBody.conf
 
 //食用方法
 
