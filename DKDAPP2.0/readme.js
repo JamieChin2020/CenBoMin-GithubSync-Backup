@@ -1,38 +1,35 @@
 #多看点测试脚本
 
 👉👉👉 脚本说明 👈👈👈
-1.本脚本为测试学习版本(TF),如果你还未取得测试资格,请先关注https://t.me/CbScript,不定时会放出测试资格邀请链接。
+1.本脚本为测试学习版本(TF),如果你还未取得测试资格,请先关注 https://t.me/CbScript ,不定时会放出测试资格邀请链接。
 2.定时请半小时执行一次,不然有些任务会没做到,建议使用v2p服务器测试脚本
 3.多账号请到BOXJS设定抓取cookie的账号参数
 
 
 👉👉👉 信息 👈👈👈
-【BOXJS】: https://raw.githubusercontent.com/CenBoMin/GithubSync/main/cenbomin.test.box.json
+【BOXJS】: https://cdn.jsdelivr.net/gh/JamieChin2020/CenBoMin-GithubSync-Backup@main/cenbomin.test.box.json
 【脚本定时cron】: */30 */1 * * * (每30min执行一次)
-【脚本JS】:https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDAPP2.0/dkd2.js
-【重写引用】: https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDAPP2.0/cookie.conf
+【脚本JS】:https://cdn.jsdelivr.net/gh/JamieChin2020/CenBoMin-GithubSync-Backup@main/DKDAPP2.0/dkd2.js
+【重写引用】: https://cdn.jsdelivr.net/gh/JamieChin2020/CenBoMin-GithubSync-Backup@main/DKDAPP2.0/cookie.conf
 
 
 👉👉👉 配置文件 👈👈👈
-[详情请见]
-https://github.com/CenBoMin/GithubSync/tree/main/DKDAPP2.0
-
 [task_local]
-*/30 */1 * * * https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDAPP2.0/dkd2.js, tag=多看点2, img-url=https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDAPP2.0/140.png, enabled=false
+*/30 */1 * * * https://cdn.jsdelivr.net/gh/JamieChin2020/CenBoMin-GithubSync-Backup@main/DKDAPP2.0/dkd2.js, tag=多看点2, img-url=https://cdn.jsdelivr.net/gh/JamieChin2020/CenBoMin-GithubSync-Backup@main/DKDAPP2.0/140.png, enabled=false
 
 [rewrite_local]
-https://dkd-api.dysdk.com/info/list url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDAPP2.0/cookie.js
-https://dkd-api.dysdk.com/cash/sign url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDAPP2.0/cookie.js
-https://dkd-api.dysdk.com/cash/sign_double url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDAPP2.0/cookie.js
-https://dkd-api.dysdk.com/cash/taskaward url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDAPP2.0/cookie.js
-https://dkd-api.dysdk.com/comment/video_like url script-request-header https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDAPP2.0/cookie.js
-https://dkd-api.dysdk.com/welfare/card url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDAPP2.0/cookie.js
-https://dkd-api.dysdk.com/welfare/card_double url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDAPP2.0/cookie.js
-https://dkd-api.dysdk.com/welfare/red url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDAPP2.0/cookie.js
-https://dkd-api.dysdk.com/welfare/red_double url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDAPP2.0/cookie.js
-https://dkd-api.dysdk.com/lotto/start url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDAPP2.0/cookie.js
-https://dkd-api.dysdk.com/android_video/getaward url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDAPP2.0/cookie.js
-https://dkd-api.dysdk.com/money/withdraw_do url script-request-body https://raw.githubusercontent.com/CenBoMin/GithubSync/main/DKDAPP2.0/cookie.js
+https://dkd-api.dysdk.com/info/list url script-request-body https://cdn.jsdelivr.net/gh/JamieChin2020/CenBoMin-GithubSync-Backup@main/DKDAPP2.0/cookie.js
+https://dkd-api.dysdk.com/cash/sign url script-request-body https://cdn.jsdelivr.net/gh/JamieChin2020/CenBoMin-GithubSync-Backup@main/DKDAPP2.0/cookie.js
+https://dkd-api.dysdk.com/cash/sign_double url script-request-body https://cdn.jsdelivr.net/gh/JamieChin2020/CenBoMin-GithubSync-Backup@main/DKDAPP2.0/cookie.js
+https://dkd-api.dysdk.com/cash/taskaward url script-request-body https://cdn.jsdelivr.net/gh/JamieChin2020/CenBoMin-GithubSync-Backup@main/DKDAPP2.0/cookie.js
+https://dkd-api.dysdk.com/comment/video_like url script-request-header https://cdn.jsdelivr.net/gh/JamieChin2020/CenBoMin-GithubSync-Backup@main/DKDAPP2.0/cookie.js
+https://dkd-api.dysdk.com/welfare/card url script-request-body https://cdn.jsdelivr.net/gh/JamieChin2020/CenBoMin-GithubSync-Backup@main/DKDAPP2.0/cookie.js
+https://dkd-api.dysdk.com/welfare/card_double url script-request-body https://cdn.jsdelivr.net/gh/JamieChin2020/CenBoMin-GithubSync-Backup@main/DKDAPP2.0/cookie.js
+https://dkd-api.dysdk.com/welfare/red url script-request-body https://cdn.jsdelivr.net/gh/JamieChin2020/CenBoMin-GithubSync-Backup@main/DKDAPP2.0/cookie.js
+https://dkd-api.dysdk.com/welfare/red_double url script-request-body https://cdn.jsdelivr.net/gh/JamieChin2020/CenBoMin-GithubSync-Backup@main/DKDAPP2.0/cookie.js
+https://dkd-api.dysdk.com/lotto/start url script-request-body https://cdn.jsdelivr.net/gh/JamieChin2020/CenBoMin-GithubSync-Backup@main/DKDAPP2.0/cookie.js
+https://dkd-api.dysdk.com/android_video/getaward url script-request-body https://cdn.jsdelivr.net/gh/JamieChin2020/CenBoMin-GithubSync-Backup@main/DKDAPP2.0/cookie.js
+https://dkd-api.dysdk.com/money/withdraw_do url script-request-body https://cdn.jsdelivr.net/gh/JamieChin2020/CenBoMin-GithubSync-Backup@main/DKDAPP2.0/cookie.js
 
 [MITM]
 hostname = dkd-api.dysdk.com
